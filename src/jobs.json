@@ -83,6 +83,34 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "ec29",
+      "title": "Wordpress Elementor Designer",
+      "type": "Part-Time",
+      "location": "Central Bank",
+      "description": "Working on Wordpress using Elementor page Builder. Need new and original ideas.",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Ideahub IT Solutions Provider",
+        "description": "An IT Company for Startups",
+        "contactEmail": "ideahub@gmail.com",
+        "contactPhone": "321-2691"
+      }
+    },
+    {
+      "id": "592c",
+      "title": "Beauty Cutter",
+      "type": "Fulltime",
+      "location": "Babadook",
+      "description": "Tosakfnalskndlkas jima islamiya",
+      "salary": "$100K - 125K",
+      "company": {
+        "name": "Ohia",
+        "description": "Ohio Gozimas",
+        "contactEmail": "fsdfasd@gmail.com",
+        "contactPhone": "09683001637"
+      }
     }
   ]
 }

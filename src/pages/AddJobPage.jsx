@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { toast } from 'react-toastify';
 
-const AddJob = () => {
+const AddJob = ({ addJobSubmit }) => {
   const [title, setTitle] = useState("");
   const [type, setType] = useState("Fulltime");
   const [location, setLocation] = useState("");
@@ -11,9 +13,11 @@ const AddJob = () => {
   const [contactEmail, setContactEmail] = useState("");
   const [contactPhone, setContactPhone] = useState("");
 
+  const navigate = useNavigate();
+
   const submitForm = (e) => {
     e.preventDefault();
-    
+
     const newJob = {
       title,
       type,
@@ -24,11 +28,15 @@ const AddJob = () => {
         name: companyName,
         description: companyDescription,
         contactEmail,
-        contactPhone
-      }
-    }
-    console.log(newJob);
-  }
+        contactPhone,
+      },
+    };
+    addJobSubmit(newJob);
+
+    toast.success('Job Added Successfully');
+
+    return navigate("/jobs");
+  };
 
   return (
     <section className="bg-indigo-50">

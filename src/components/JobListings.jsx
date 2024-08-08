@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"; 
 import JobListing from "./JobListing";
 import PropTypes from "prop-types";
 import Spinner from "./Spinner";
