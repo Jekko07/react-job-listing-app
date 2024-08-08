@@ -86,7 +86,7 @@
     },
     {
       "id": "ec29",
-      "title": "Wordpress Elementor Designer",
+      "title": "Wordpress Elementor Dev",
       "type": "Part-Time",
       "location": "Central Bank",
       "description": "Working on Wordpress using Elementor page Builder. Need new and original ideas.",
@@ -100,16 +100,16 @@
     },
     {
       "id": "592c",
-      "title": "Beauty Cutter",
-      "type": "Fulltime",
-      "location": "Babadook",
-      "description": "Tosakfnalskndlkas jima islamiya",
-      "salary": "$100K - 125K",
+      "title": "Barber Shop Helper",
+      "type": "Remote",
+      "location": "Malvar, Davao City",
+      "description": "Helps in doing shampoo to customers. Blablabla",
+      "salary": "Over $200K",
       "company": {
-        "name": "Ohia",
-        "description": "Ohio Gozimas",
-        "contactEmail": "fsdfasd@gmail.com",
-        "contactPhone": "09683001637"
+        "name": "Kush",
+        "description": "Leading Barbershop in Davao",
+        "contactEmail": "kush@gmail.com",
+        "contactPhone": "09164557452"
       }
     }
   ]
